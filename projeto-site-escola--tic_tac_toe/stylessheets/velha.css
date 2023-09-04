@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: clamp(18px, 6vw, 25px);
+  text-align: center;
+  background-color:#c7c6c6;
+  position: relative;
+  top:10vh
+}
+
+.centralizado {
+position: absolute;
+top: clamp(50px, 60vh, 600px);
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#tabuleiro {
+  position: relative;
+  top: 20px;
+  justify-content: center;
+  width: 0px;
+  height: 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#quadrado {
+  border: 1px solid #000;
+  width:clamp(50px, 9vh, 150px);
+  height:clamp(50px, 9vh, 150px);
+  text-align: center;
+  font-size: clamp(18px, 6vh, 70px);
+  line-height: clamp(50px, 9vh, 150px);
+  cursor: pointer;
+  padding: 0px;
+  background-color:#dfdfdf
+}

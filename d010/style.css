@@ -1,0 +1,154 @@
+/*
+    a fazer:
+    -trabalhar a resposividade do site
+    -formatar o footer
+    -estilizar a UL
+    -resolver esse espaco que tem no footer e no header
+*/
+
+
+
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+h1.especial {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    color: #244d37;
+    margin-top: 0px;
+}
+
+h1#extra {
+    background-color: #2FA866;
+    text-align: left;
+    font-size: 22px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    color: #336d4e;
+}
+
+h2 > span {
+    background-color: #86e5b369;
+}
+
+p#header {
+    color: lightgray;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: linear-gradient(to top, #154b2d, #3CD883 );
+    padding: 1vw;
+    width: 98vw;
+}
+
+body {
+    background-color: #8deeb7;
+    margin: auto;   /*isso concertou espacamentos indesejados nos meus elementos header footer e uma discrepancia entre o html e o body (nao sei explicar melhor)*/
+    overflow-x: hidden; /*resolveu meu problema de barra de rolagem lateral*/
+}
+
+main {
+    background-color: white;
+    border: 2px solid #6dbb8f;
+    padding: 15px;
+    width: 70vw;
+    margin: auto;
+}
+
+img {
+    width: 70vw;
+}
+
+img#bugdroid {
+    width: 300px;
+}
+
+main.extra {
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #C5EBD6;
+    width: 68vw;
+}
+
+ul {
+    columns: 2;
+    list-style-type: '\2714\00A0'; /*aqui a primeira contra barra imepde que o browser utilize o estilo como literalmente o numero e assim o tranforma em 'emoji', e "\00A0" coloca um espacamento.*/
+}
+
+main > p {
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    width: 100vw;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+strong {
+    color: #0a853f;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+div#video {
+    background-color: #043D1D;
+    margin: 0px -16px 30px -16px;
+    padding: 20px;
+    /*parte mais importante*/
+    position: relative;
+    padding-bottom: 50%;/*alterrar para mudar a borda preta*/
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

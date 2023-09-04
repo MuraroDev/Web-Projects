@@ -1,0 +1,57 @@
+html {
+    text-align:center;
+    font-size: 2.05vw;
+    background-color:#585858;
+    color: black;
+}
+
+/*aqui o tamanho do grid template deve ser = .container_div[width] + 2(.container_div[padding]) + 2(.container_div[border])*/
+
+.container {  
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 21.9619326501vw 21.9619326501vw; /*colocar para se adaptar conforme a vw e vh*/
+}
+
+.container div {
+    background-color: #a8a8a8; /*colocar uma cor minimamente bonita*/
+    border: 0.366vw solid #111111; /*colocar para se adaptar conforme a vw e vh*/
+    padding: 1.545vw; /*colocar para se adaptar conforme a vw e vh*/
+    width: 18.3vw; /*colocar para se adaptar conforme a vw e vh*/
+}
+
+main {
+    width: 40vw;
+    padding: 1.545vw;
+    border: 0.4vw solid #111111;
+    margin: auto;
+    background-color: #a8a8a8;
+}
+
+img {
+    width: 18.3vw; /*colocar para se adaptar conforme a vw e vh*/
+}
+
+@media (max-width: 849px) {
+
+    html{
+        font-size: 2.2vw;
+    }
+    .container{  
+        grid-template-columns: none;
+    }
+    
+    .container div {
+        width: 35vw;
+    }
+    
+    main {
+        width: 35vw;
+    }
+    
+    img{
+        width: 35vw;
+    }
+}
+
+/*talvez adicionar outro media seria bom um com max-width de 400 ou 500*/
