@@ -78,7 +78,8 @@ main {
 }
 
 img {
-    width: 70vw;
+    width: 85vw;
+    max-width:950px;
 }
 
 img#bugdroid {
@@ -132,7 +133,7 @@ div#video {
     padding: 20px;
     /*parte mais importante*/
     position: relative;
-    padding-bottom: 50%;/*alterrar para mudar a borda preta*/
+    padding-bottom: 56%;/*alterrar para mudar a borda preta*/
 }
 
 div#video > iframe {
