@@ -1,0 +1,48 @@
+body {
+    background-color: #141414;
+    color: white;
+    margin: 0;
+}
+
+div.container {
+    margin-top: calc(50vh - 150px);
+    height: 235px;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div.genero {
+    background-image: url(https://yandex-images.clstorage.net/rUw9r5399/a849c06bN1/PPNvegSGERxrnOLExT6iRLBjZxkDTEfLjj8ysVdOlr-mpdEb7a7mpOnuvaaUsQjGfDW_LQA6MD4ceZE5Z6eldS6keTZPzQxGOdv9kM09p0atPiQIHxZDlpR9br9FQc2686_vcpvewM2f2JDZv80XknZnuzRLYGdrcUeIfHO0yW0702pwEL15HGedvsvqE4BIggxzEDERbLyFC2KfbTbOy7Hq-lij7ffFovCqyrroG7Vaco4pInJefn100XxPp89wO95OUDK4UzNpna__9yeBR6EuZTA_MW2_lhpBolY3wPGa1dtAt83l4qDbqtKH4j-hYEmZJD9Ib1ZKXuFiUY3EYQbEeU8EgHo-Xpyg9uU6j22fN2QOBBJ3p5EdQopkEM7mpOzKRZLU59G9xr_mu-slmVVxvCkEWW5iZErvUnWny1gJ3HJKP71zOHqWj_zSKK5DjiVCEAAIQLiWLWqwdznR8KjY4li-9c74hcet5rHEIrZTbbw5I1NtdVRB2EBNsstiOth-eD-7WTRmnLTu0DmKV6IEajQ9F0qOlxVEg1EA182O0Px5ns7SxZ3wlPOH6Qe5S3uwKgxBR1NpetlhdqX_ZQjgSG4Fv1YDZ7ql5eg1gVOsJEorLgpbkpEOfqJcLu_TtMrTXJ_06uOa573ftNAroXZTqykibH9PRl3kQUqP92Ap4HVsO5pdCHqluuf8HKVAmQdKCiMaVLmsPlq-eSLx_pHr4l60x-ffudCp1JjONpROTJMvMWd7YmdSy0dugf94CeJsVzeZXT17loHr7iqHV4UKfwouGUydihpNok8119GE7cR6qf3I9qbLv9OOxSGBdHawGwx2cF9EUsRjRKTMVinIYUMkkWsmf5yd8OEntVOGLngwIxNJgIQ-RIt3HPDVi_PYRrfe6POR_LrUl8UjgHRasxkIRGp1ZHv5R2qV12wN-XJ_D6FlP26BtOfzHpRHqQBTOQEoSbqwN36wYj8);
+    background-repeat: no-repeat;
+    background-size: cover;/*so mudar a imagem de cada div usando id e mudando sua url*/
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid #00000000;
+}
+
+div.genero:hover {
+    border: 2px solid #cc1a1a;
+    transition: 0.5s;
+}
+div#primeira {
+    margin-left: calc(20vw - 20px);
+}
+
+div.genero > p {
+    text-align: center;
+    margin-top: 100%; /*aumentar ou diminuir para deixar a escrita em cima ou em baixo (use dev tools)*/
+}
