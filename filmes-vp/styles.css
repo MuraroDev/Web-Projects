@@ -5,6 +5,7 @@ body {
 }
 
 div.container {
+    position: relative;
     margin-top: calc(50vh - 150px);
     height: 235px;
     width: 100vw;
@@ -13,7 +14,8 @@ div.container {
 h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 20px;
+    letter-spacing: 2.5px;
+    margin: 0px;
 }
 
 a {
@@ -21,28 +23,119 @@ a {
     color: white;
 }
 
+/*AREA DE TESTES*/
+
 div.genero {
-    background-image: url(https://yandex-images.clstorage.net/rUw9r5399/a849c06bN1/PPNvegSGERxrnOLExT6iRLBjZxkDTEfLjj8ysVdOlr-mpdEb7a7mpOnuvaaUsQjGfDW_LQA6MD4ceZE5Z6eldS6keTZPzQxGOdv9kM09p0atPiQIHxZDlpR9br9FQc2686_vcpvewM2f2JDZv80XknZnuzRLYGdrcUeIfHO0yW0702pwEL15HGedvsvqE4BIggxzEDERbLyFC2KfbTbOy7Hq-lij7ffFovCqyrroG7Vaco4pInJefn100XxPp89wO95OUDK4UzNpna__9yeBR6EuZTA_MW2_lhpBolY3wPGa1dtAt83l4qDbqtKH4j-hYEmZJD9Ib1ZKXuFiUY3EYQbEeU8EgHo-Xpyg9uU6j22fN2QOBBJ3p5EdQopkEM7mpOzKRZLU59G9xr_mu-slmVVxvCkEWW5iZErvUnWny1gJ3HJKP71zOHqWj_zSKK5DjiVCEAAIQLiWLWqwdznR8KjY4li-9c74hcet5rHEIrZTbbw5I1NtdVRB2EBNsstiOth-eD-7WTRmnLTu0DmKV6IEajQ9F0qOlxVEg1EA182O0Px5ns7SxZ3wlPOH6Qe5S3uwKgxBR1NpetlhdqX_ZQjgSG4Fv1YDZ7ql5eg1gVOsJEorLgpbkpEOfqJcLu_TtMrTXJ_06uOa573ftNAroXZTqykibH9PRl3kQUqP92Ap4HVsO5pdCHqluuf8HKVAmQdKCiMaVLmsPlq-eSLx_pHr4l60x-ffudCp1JjONpROTJMvMWd7YmdSy0dugf94CeJsVzeZXT17loHr7iqHV4UKfwouGUydihpNok8119GE7cR6qf3I9qbLv9OOxSGBdHawGwx2cF9EUsRjRKTMVinIYUMkkWsmf5yd8OEntVOGLngwIxNJgIQ-RIt3HPDVi_PYRrfe6POR_LrUl8UjgHRasxkIRGp1ZHv5R2qV12wN-XJ_D6FlP26BtOfzHpRHqQBTOQEoSbqwN36wYj8);
+    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;/*so mudar a imagem de cada div usando id e mudando sua url*/
     border-radius: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    display: inline-block;
+    border: 2px solid #00000000;
+    max-width: 165px;
+    max-height: 165px;
     width: 15vw;
     height: 15vw;
-    border: 2px solid #00000000;
+    transform: translate(-50%, -50%);
+    top: 60%;
 }
 
-div.genero:hover {
-    border: 2px solid #cc1a1a;
-    transition: 0.5s;
-}
 div#primeira {
-    margin-left: calc(20vw - 20px);
+    background-image: url(https://occ-0-110-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABRPNoD8yQsHm0N4pQYc8hXMYKGNfeU0b-LaIGrqIwS2vbc0vmxvOwUgM9gN6MgCvo2SqX8vb76adyQFyt6HmAm__WLN8Qd3O6rJZ.png?r=bba);
+    left: 27%;
+}
+
+div#segunda {
+    background-image: url(https://occ-0-110-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbsTN5kEwNQNR-4yqEfUhML0a3XGFKVFA8OgfHj54BSy0V7fREshbDcGE2_O3tutFi5sIeFQ8YQPgIlAP9_oK55VYTGk_evxFykK.png?r=ff8);
+    left: 44%;
+}
+
+div#terceira {
+    background-image: url(https://occ-0-110-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABagvNx6UrGV6MCX6Ma40iKKbSge5kM6ZvvuqKcoJNyOnQ5HIlRF3sOIZCZ2Bt_xGQTjGjtnTiBCpx3jx-nPP80I4F1Is6NSrBUOz.png?r=558);
+    left: 61%;
+}
+
+div#quarta {
+    background-image: url(https://occ-0-110-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABb9QgWa60sthoE78yJWn0lowWvGrQL_dI04plIvfpOKVXgw-IEc66W9PmWcKYXxN8cqBg75tfhIJtoFdmgZUoxcjgkj8Injecj8n.png?r=cad);
+    left: 78%;
+}
+
+/*AREA DE TESTES*/
+
+div.genero:hover {
+    border: 3px solid #ffffff;
 }
 
 div.genero > p {
     text-align: center;
-    margin-top: 100%; /*aumentar ou diminuir para deixar a escrita em cima ou em baixo (use dev tools)*/
+    margin-top: 110%; /*aumentar ou diminuir para deixar a escrita em cima ou em baixo (use dev tools)*/
+    color: #c2c2c28c;
+}
+
+@media (max-width: 699px){
+   
+    div.container {
+        position: relative;
+        margin-top: calc(30vh - 150px);
+        height: 235px;
+        width: 100vw;
+    }
+
+    div.genero {
+        width: 150px;
+        height: 150px;
+    }
+
+    div#primeira {
+        top: 60%;
+        left: 36%;       
+    }
+    
+    div#segunda {
+        top: 60%;
+        left: 64%;
+    }
+    
+    div#terceira {
+        top: 145%;
+        left: 36%;
+    }
+    
+    div#quarta {
+        top: 145%;
+        left: 64%;
+    }
+}
+
+@media (max-width: 549px) {
+    div.container {
+        position: relative;
+        margin-top: calc(30vh - 150px);
+        height: 235px;
+        width: 100vw;
+    }
+
+    div.genero {
+        width: 150px;
+        height: 150px;
+    }
+
+    div#primeira {
+        top: 75%;
+        left: 50%;       
+    }
+    
+    div#segunda {
+        top: 160%;
+        left: 50%;
+    }
+    
+    div#terceira {
+        top: 245%;
+        left: 50%;
+    }
+    
+    div#quarta {
+        top: 330%;
+        left: 50%;
+    }
 }
