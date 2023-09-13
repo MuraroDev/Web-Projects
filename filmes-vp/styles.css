@@ -139,3 +139,28 @@ div.genero > p {
         left: 50%;
     }
 }
+
+/*comeco da segunda pagina ainda nao sei se vou precisar criar outro arquivo*/
+
+img {
+    display: inline-block;
+    width: 23vw;
+    margin: 10px;
+}
+
+div.filmes {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1099px) {
+    img {
+        display: block;
+        width: 180px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
