@@ -18,6 +18,33 @@ h1 {
     margin: 0px;
 }
 
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h1.sinopses {
+    margin-top: 15px;
+}
+
+p {
+    color: black;
+}
+
+main {
+    background-color: #acacacc5;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 85vw;
+}
+
+img.sinopses {
+    margin: 0;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -148,6 +175,10 @@ img {
     margin: 10px;
 }
 
+img#pior_escola {
+    height: 34.5vw;
+}
+
 div.filmes {
     position: absolute;
     left: 50%;
@@ -162,5 +193,9 @@ div.filmes {
         position: relative;
         left: 50%;
         transform: translate(-50%);
+    }
+
+    img#pior_escola {
+        height: 270px;
     }
 }
